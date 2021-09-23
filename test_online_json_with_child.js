@@ -3675,3 +3675,10 @@ const minCount =  productsCount.findIndex(element => element === min);
 
 console.log(' Which top-level category, including its children, contains the fewest products?', minCount + 1 , 'th category=>', category[minCount].name);
 
+//console result
+// How many total categories are there17
+// How many total products are there?32831
+// How many total products are there in 5th-level categories?87
+// Which top-level category, including its children, contains the most products?11th category=>Movies & TV
+// Which top-level category, including its children, contains the fewest products?16th category=>Toys & Games
+
